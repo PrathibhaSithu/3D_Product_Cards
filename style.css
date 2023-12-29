@@ -24,7 +24,7 @@ img:hover{
 }
 body{
     min-height: 100vh;
-    background: url(img/bgimg.jpeg)no-repeat ;
+    background: url(img/ff.jpg)no-repeat ;
     background-size: cover;
     backdrop-filter: blur(40px);
     width: 100%;
