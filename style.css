@@ -164,3 +164,10 @@ button i{
     text-shadow: 0 0 25px red,
                  0 0 50px red;
 }
+@media(max-width:1355px){
+    body{
+        flex-direction: column;
+        gap: 2em;
+        margin: 3em 0;
+    }
+}
