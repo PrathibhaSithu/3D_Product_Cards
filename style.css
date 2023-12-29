@@ -24,7 +24,7 @@ img:hover{
 }
 body{
     min-height: 100vh;
-    background: url(img/ff.jpg)no-repeat ;
+    background: url(img/ff.jpg)no-repeat center;
     background-size: cover;
     backdrop-filter: blur(40px);
     width: 100%;
@@ -34,7 +34,7 @@ body{
     gap: 3em;
 }
 .card{
-    background-color: rgba(255, 255,255, .95);
+    background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(40px);
     border: 1px solid rgba(211, 211, 211, 0.25);
     border-radius: 2em;
@@ -71,22 +71,92 @@ body{
     font-weight: 500;
     font-size: 18px;
 }
-.colors{
+.smell{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5em;
 }
-.color span{
+.smell span{
     font-weight: 600;
 }
-/*jesmine
-Lavender
-Wlotus
-Wlilly*/
 .info-2 .rose{
     height: 20px;
     width: 20px;
     background-color: red;
     border-radius: 50%;
+}
+.info-2 .lotus{
+    height: 20px;
+    width: 20px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+.info-2 .Lavender{
+    height: 20px;
+    width: 20px;
+    background-color: purple;
+    border-radius: 50%;
+}
+#star{
+    color: gold;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+#star:hover{
+    text-shadow: 0 0 25px gold,
+                 0 0 50px gold;
+}
+.info-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: black;
+}
+.info-grid .pricing{
+    font-size: 42px;
+    font-weight: 800;
+    color: black;
+}
+.btn-grp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+button{
+    padding: 10px 10px;
+    border-radius: 1em;
+    font-size: 14px;
+    gap: 05em;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:nth-of-type(1){
+    background-color: black;
+    color: white;
+}
+button:nth-of-type(1):hover{
+    background-color: white;
+    color: black;
+}
+button i{
+    font-size: 30px;
+}
+#heart{
+    color: red;
+    transition: 0.3s ease-in-out;
 }
