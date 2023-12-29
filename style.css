@@ -80,4 +80,13 @@ body{
 .color span{
     font-weight: 600;
 }
-.info-3{}
+/*jesmine
+Lavender
+Wlotus
+Wlilly*/
+.info-2 .rose{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
