@@ -4,3 +4,12 @@
     box-sizing: border-box;
     font-family: 'poppins' sans-serif;
 }
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.03);
+}
