@@ -13,3 +13,22 @@ img{
 img:hover{
     transform: scale(1.03);
 }
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 25px;
+}
+body{
+    min-height: 100vh;
+    background: url(img/bgimg.jpeg)no-repeat ;
+    background-size: cover;
+    backdrop-filter: blur(40px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
